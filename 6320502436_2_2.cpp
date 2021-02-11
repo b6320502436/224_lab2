@@ -8,19 +8,25 @@ main()
 	scanf("%f",&b);
 	if(A=='A')
 	{
-		b=b-200;
+		if(b>200){b=b-200;
 		c=199+b*3;
-		printf("%f",ceil(c));
+		printf("%.2f",c);
+	}else{
+	printf("%.2f",c=199.00);
+	}
 	}
 	else if(A=='B')
 	{
-		b=b-400;
+		if(b>400){b=b-400;
 		c=299+b*2;
-		printf("%f",ceil(c));
+		printf("%f",c);
+		}else{
+	printf("%.2f",c=299.00);
+		
 	}
 	
 	
 	
 	
 	
-}
+}}
