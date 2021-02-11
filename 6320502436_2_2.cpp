@@ -9,13 +9,13 @@ main()
 	{
 		b=b-200;
 		c=199+b*3;
-		printf("%.2f",c);
+		printf("%.2f",ceil(c));
 	}
 	else if(A=='B')
 	{
 		b=b-400;
 		c=299+b*2;
-		printf("%.2f",c);
+		printf("%.2f",ceil(c));
 	}
 	
 	
