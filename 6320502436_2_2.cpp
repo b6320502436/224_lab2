@@ -9,21 +9,20 @@ main()
 	if(A=='A')
 	{
 		if(b>200){b=b-200;
-		c=199+b*3;
-		printf("%.2f",c);
-	}else{
-	printf("%.2f",c=199.00);
-	}
-	}
+		b=(int)c*3+((int)(c*100));
+		c=199+b;
+		printf("%.2f",c);}
+		else printf("%.2f",c=199.00);
+}
 	else if(A=='B')
 	{
-		if(b>400){b=b-400;
+		if(b>400)
+		{b=b-400;
 		c=299+b*2;
 		printf("%f",c);
-		}else{
-	printf("%.2f",c=299.00);
-		
 	}
+	else printf("%.2f",c=299.00);
+	
 	
 	
 	
