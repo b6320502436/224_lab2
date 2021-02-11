@@ -21,12 +21,12 @@ int main()
         case 11: c=30; break;
         case 12: c=31; break;
     }
-    if((c-a)%7==0)
+    if((c+a)%7==0)
     {
 	printf("%d",7);
     }
     else
-	printf("%d",(c-a)%7);
+	printf("%d",(c+a)%7);
 }
 
 	
